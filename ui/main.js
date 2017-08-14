@@ -5,7 +5,7 @@ element.innerHTML = 'This is the new value that we entered';
 
 //Move the image
 
-var dego= document.getElementById('madi');
+var dego = document.getElementById('madi');
 
 var marginLeft = 0;
 function moveRight () {
@@ -14,8 +14,6 @@ function moveRight () {
     
 }
 
-
-
-dego.onclick= function() {
+ dego.onclick= function() {
     var interval = setInterval(moveright, 50);
 };
