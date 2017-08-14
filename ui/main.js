@@ -10,7 +10,7 @@ var dego = document.getElementById('madi');
 var marginLeft = 0;
 function moveRight () {
     marginLeft = marginLeft + 5;
-    img.style.marginLeft = marginLeft + 'px';
+    dego.style.marginLeft = marginLeft + 'px';
     
 }
 
