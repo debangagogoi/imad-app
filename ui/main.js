@@ -5,5 +5,5 @@ element.innerHTML = 'This is the new value that we entered';
 
 var dego= document.getElementById('madi');
 dego.onclick= function()
-{dego.style.marginleft = 100px;
+{dego.style.marginleft = '100px';
 };
