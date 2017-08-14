@@ -8,8 +8,9 @@ element.innerHTML = 'This is the new value that we entered';
 var dego= document.getElementById('madi');
 
 var marginLeft = 0;
-function moveright () {
-    marginLeft = marginLeft + 'px';
+function moveRight () {
+    marginLeft = marginLeft + 5;
+    img.style.marginLeft = marginLeft + 'px';
     
 }
 
