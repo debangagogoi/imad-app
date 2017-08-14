@@ -12,7 +12,8 @@ function moveRight () {
     marginLeft = marginLeft + 5;
     dego.style.marginLeft = marginLeft + 'px';
     
-}
+};
+
 
  dego.onclick= function() {
     var interval = setInterval(moveRight, 50);
